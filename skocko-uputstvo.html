@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skocko</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script-podesavanja.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid igra2">
+        <div class="row">
+            <div class="col-sm-12" id="uputstvo">
+                <h1>Skocko-Uputsva Igre</h1>
+                <p>Skocko je igra u kojoj igrac mora da pokodi kombinaciju znakova, koju mu je protivnik zadao. Igraci svom protivniku zadaju kombinaciju od 4 znaka, gde se znakovi mogu i ponavljati. Nakon zadavanja kombinacije, prelazi se na samu igru. Svaki protivnik ima po 7 pokusaja da pogodi kombinaciju, i za svaki pokusaj, dobija povratnu informaciju o tacnosti svog pokusaja u vidu crvenih kvadrata(odgovarajuci znak postoji u kombinaciji i nalazi se na pravom mestu) i zutih (odgovarajuci znak se nalazi u kombinaciji, ali ne na odgovarajucem mestu).Svaki igrac ima po 60 sekundi, za svoje pokusaje, a pokusaji se odvijaju naizmenicno, gde se nakon pokusaja jednog, nastavlja vreme drugog. Igra se zaustavlja, kada jedan od igraca pogodi svoju kombinaciju, cime odnosi pobedu, ili ukoliko istekne vreme jednom od igraca, cime pobedu odnosi protivnik. Ukoliko nijedan od igraca ne pogodi svoju kombinaciju, nema pobednika.</p>
+            <button id="zapocni" class='btn btn-danger' >Zapocni igru</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Skocko</title>
+</head>
+<body>
+    
+    <div class="container-fluid igra">
+        <div class="row red">
+            <div class="col-sm-2"><h2 id="Igrac"></h2></div>
+            <div class="col-sm-offset-2 col-sm-3 siva">
+                
+                <table class="znakovi">
+                    <tr>
+                        <td  id="1"></td>
+                        <td id="2"></td>
+                        <td id="3"> </td>
+                        <td id="4"></td>
+                    </tr>
+                    <tr>
+                        <td id="5"></td>
+                        <td  id="6"></td>
+                        <td  id="7"></td>
+                        <td  id="8"></td>
+                    </tr>
+                    <tr>
+                        <td  id="9"></td>
+                        <td id="10"></td>
+                        <td  id="11"> </td>
+                        <td id="12"></td>
+                    </tr>
+                    <tr>
+                        <td  id="13"></td>
+                        <td  id="14"></td>
+                        <td  id="15"></td>
+                        <td  id="16"></td>
+                    </tr>
+                    <tr>
+                        <td id="17"></td>
+                        <td id="18"></td>
+                        <td  id="19"></td>
+                        <td  id="20"></td>
+                    </tr>
+                    <tr>
+                        <td  id="21"></td>
+                        <td  id="22"></td>
+                        <td  id="23"></td>
+                        <td  id="24"></td>
+                    </tr>
+                    <tr>
+                        <td  id="25"></td>
+                        <td  id="26"></td>
+                        <td  id="27"></td>
+                        <td  id="28"></td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="col-sm-1 siva">
+                <table id="potvrda">
+                    <tr>
+                        <td><button class="btn button potvrda">-></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn button potvrda">-></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn button potvrda">-></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn button potvrda">-></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn button potvrda">-></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn button potvrda">-></button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="btn button potvrda">-></button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-sm-4 siva">
+                <table id="provera">
+                    <tr>
+                        <td id="p1"></td>
+                        <td id="p2"></td>
+                        <td id="p3"></td>
+                        <td id="p4"></td>
+                    </tr>
+                    <tr>
+                        <td id="p5"></td>
+                        <td id="p6"></td>
+                        <td id="p7"></td>
+                        <td id="p8"></td>
+                    </tr>
+                    <tr>
+                        <td id="p9"></td>
+                        <td id="p10"></td>
+                        <td id="p11"></td>
+                        <td id="p12"></td>
+                    </tr>
+                    <tr>
+                        <td id="p13"></td>
+                        <td id="p14"></td>
+                        <td id="p15"></td>
+                        <td id="p16"></td>
+                    </tr>
+                    <tr>
+                        <td id="p17"></td>
+                        <td id="p18"></td>
+                        <td id="p19"></td>
+                        <td id="p20"></td>
+                    </tr>
+                    <tr>
+                        <td id="p21"></td>
+                        <td id="p22"></td>
+                        <td id="p23"></td>
+                        <td id="p24"></td>
+                    </tr>
+                    <tr>
+                        <td id="p25"></td>
+                        <td id="p26"></td>
+                        <td id="p27"></td>
+                        <td id="p28"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-sm-2 dugme siva">
+                <button class="btn btn-danger" id="nova">Nova Igra</button>
+                <button class="btn btn-danger" id="start">Start</button>
+                <div id="counter"></div>
+            </div>
+        </div>
+        <div class="row red">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-offset-3 col-sm-3 siva">
+                    <table class="znakovi">
+                        <tr>
+                            <td id="k0"></td>
+                            <td id="k1"></td>
+                            <td id="k2"></td>
+                            <td id="k3"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-5 siva">
+                    <table class="znakovi">
+                        <tr>
+                            <td><img src="skocko-dodatno/smiley.png" name="0" class="znak" alt=""></td>
+                            <td><img src="skocko-dodatno/icons8-clubs-48.png" name="1" class="znak" alt=""></td>
+                            <td><img src="skocko-dodatno/icons8-spades-48.png" name="2" class="znak" alt=""></td>
+                            <td><img src="skocko-dodatno/icons8-heart-48.png" name="3" class="znak" alt=""></td>
+                            <td><img src="skocko-dodatno/icons8-diamonds-48.png" name="4"class="znak" alt=""></td>
+                            <td><img src="skocko-dodatno/icons8-star-filled-48.png" name="5" class="znak" alt="" srcset="">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>        
+    </div>
+</body>
+</html>

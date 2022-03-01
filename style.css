@@ -1,0 +1,122 @@
+body{
+    /* kod za podesavanje slike preko celog ekrana nadjeno na internetu*/
+    padding-top: 70px;
+    background: url(skocko-dodatno/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;   
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+.red{
+    height: 100%;
+    width: 100%;
+    /* padding-top: 40px; */
+    /*padding-right: 100px;*/
+   
+}
+.tabele{
+    margin-right: 30px;
+}
+
+.znakovi td{
+    background-color: #feb290;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    padding:4px;
+
+}
+.znakovi{
+    border-spacing: 20px;
+    border-collapse: separate;
+    
+}
+
+#provera{
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+#potvrda{
+    border-spacing: 20px;
+    border-collapse: separate;
+}
+#potvrda td{
+    height: 50px;
+}
+#provera td{
+    background-color: #fefef3;
+    height: 50px;
+    width: 50px;
+    border-radius: 2px;
+
+}
+.button{
+    background-color: white;
+    color: red;
+}
+.znak{
+    width:45px;
+    height:45px;
+    
+}
+
+.dugme{
+    margin-left: -70px;
+    padding-left: 0px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.dugme button{
+    margin-bottom: 40px;
+}
+#counter{
+    background-color: white;
+    height: 100px;
+    width:105px;
+}
+.igra{
+    /* margin-top: 54px; */
+    background-color: rgb(224, 224, 224,0.3);
+    border-bottom:#feb290 solid 2px ;
+    border-top:#feb290 solid 2px ;
+}
+.igra2{
+    color:#feb290;
+    margin-top:100px;
+    padding-left:150px;
+    padding-right:150px;
+    background-color: rgb(224, 224, 224,0.4);
+    border-bottom:#feb290 solid 2px ;
+    border-top:#feb290 solid 2px ;
+}
+
+#uputstvo{
+    text-align:center;
+     color:white;
+}
+#zapocni{
+    margin-bottom:10px;
+}
+#redPodesavanja{
+    margin-left:40px;
+}
+#kolonaPodesavanja{
+    text-align: center; color:white;
+}
+#nas{
+    font-size:70px;
+}
+#signs{
+    margin-left: 80px;
+}
+#potvrdi{
+    margin-right: 20px;
+}
+
+
+
+
+
+
